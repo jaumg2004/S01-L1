@@ -8,7 +8,7 @@ end
 local tabela = {}
 
 for i=1,100,1 do
-tabela[i] = math.random(1, 1000)
+tabela[i] = math.random(1, 10000)
 end
 
 local cont = 0
@@ -20,4 +20,4 @@ for i=1, 100, 1 do
     
 end
 
-print("Quantidades de números pares",cont)
+print("Quantidades de numeros pares",cont)
